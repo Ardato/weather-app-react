@@ -66,7 +66,7 @@ function App() {
           <div className="temp">
                 {Math.round(weather.main.temp)}&deg;c
           </div>
-        <div className="weather">{weather.weather[0].main}</div>
+        <div className="weather">{weather.weather[0].description}</div>
           <p className="copyright">created  by Ardato Belay</p>
         </div>
           </div>
